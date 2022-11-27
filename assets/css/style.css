@@ -239,6 +239,12 @@ footer{
     hr {
         display: none;
     }
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 }
 @media screen and (max-width: 950px) {
     #menu {
@@ -268,5 +274,13 @@ footer{
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+    #photos {
+        column-count:3;
     } 
+}
+@media screen and (max-width: 800px){
+    #photos {
+        column-count:2
+    }
 }
